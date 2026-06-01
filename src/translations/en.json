@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "hero": "Home",
+    "stack": "Stack",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Available for new projects",
+    "title": "Hi, I'm",
+    "name": "Augustin PARIS",
+    "subtitle": "Versatile Software Developer",
+    "description": "Backend and software-oriented developer. Specialized in Java and open-source enthusiast, I build applications, system tools, and performant architectures, from Linux infrastructure to modern web technologies.",
+    "ctaPrimary": "See my projects",
+    "ctaSecondary": "Get in touch"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies and tools I work with"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Some recent work",
+    "view": "View project",
+    "code": "Source code"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's discuss your project",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "success": "Message sent successfully!"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

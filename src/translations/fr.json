@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "hero": "Accueil",
+    "stack": "Stack",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Disponible pour de nouveaux projets",
+    "title": "Bonjour, je suis",
+    "name": "Augustin PARIS",
+    "subtitle": "Développeur Logiciel Polyvalent",
+    "description": "Développeur orienté backend et logiciel. Spécialisé en Java et passionné d'open-source, je crée des applications, des outils système et des architectures performantes, de l'infrastructure Linux aux technologies web modernes.",
+    "ctaPrimary": "Voir mes projets",
+    "ctaSecondary": "Me contacter"
+  },
+  "skills": {
+    "title": "Compétences",
+    "subtitle": "Technologies et outils avec lesquels je travaille"
+  },
+  "projects": {
+    "title": "Projets",
+    "subtitle": "Quelques réalisations récentes",
+    "view": "Voir le projet",
+    "code": "Code source"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Discutons de votre projet",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer",
+    "success": "Message envoyé avec succès !"
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  }
+}
