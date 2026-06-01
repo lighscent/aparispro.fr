@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { MantineProvider } from '@mantine/core';
 import { ChakraProvider, defaultSystem } from '@chakra-ui/react';
 import { LanguageProvider } from './context/LanguageContext';
 import { ThemeProvider } from './context/ThemeContext';
@@ -14,7 +13,6 @@ import MentionsLegales from './pages/MentionsLegales';
 export default function App() {
   return (
     <ChakraProvider value={defaultSystem}>
-      <MantineProvider>
         <ThemeProvider>
           <LanguageProvider>
             <BrowserRouter>
@@ -32,7 +30,6 @@ export default function App() {
             </BrowserRouter>
           </LanguageProvider>
         </ThemeProvider>
-      </MantineProvider>
     </ChakraProvider>
   );
 }
