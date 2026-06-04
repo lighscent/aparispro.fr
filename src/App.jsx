@@ -9,6 +9,7 @@ import Stack from './pages/Stack';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
 import MentionsLegales from './pages/MentionsLegales';
+import WhatsAppButton from './components/WhatsAppButton';
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
                 </Routes>
               </main>
               <Footer />
+              <WhatsAppButton />
             </BrowserRouter>
           </LanguageProvider>
         </ThemeProvider>
