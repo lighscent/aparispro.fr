@@ -15,9 +15,11 @@ const categories = [
     label: { fr: 'Langages', en: 'Languages' },
     color: '#059669',
     items: [
+      { name: 'Java', slug: 'openjdk', color: '#ED8B00' },
       { name: 'JavaScript', slug: 'javascript', color: '#F7DF1E' },
       { name: 'Python', slug: 'python', color: '#3776AB' },
-      { name: 'Java', slug: 'openjdk', color: '#ED8B00' },
+      { name: 'Go', slug: 'go', color: '#00ADD8' },
+      { name: 'Rust', slug: 'rust', color: '#000000' },
       { name: 'Lua', slug: 'lua', color: '#000080' },
       { name: 'C++', slug: 'cplusplus', color: '#00599C' },
     ],
@@ -27,11 +29,11 @@ const categories = [
     label: { fr: 'Frameworks', en: 'Frameworks' },
     color: '#7c3aed',
     items: [
+      { name: 'EJS', slug: 'ejs', color: '#B4CA65' },
+      { name: 'Tailwind CSS', slug: 'tailwindcss', color: '#06B6D4' },
+      { name: 'Node.js', slug: 'nodedotjs', color: '#339933' },
       { name: 'React', slug: 'react', color: '#61DAFB' },
       { name: 'Vue.js', slug: 'vuedotjs', color: '#4FC08D' },
-      { name: 'Node.js', slug: 'nodedotjs', color: '#339933' },
-      { name: 'Tailwind CSS', slug: 'tailwindcss', color: '#06B6D4' },
-      { name: 'EJS', slug: 'ejs', color: '#B4CA65' },
     ],
   },
   {
@@ -39,11 +41,12 @@ const categories = [
     label: { fr: 'Bases de donn\u00e9es', en: 'Databases' },
     color: '#2563eb',
     items: [
-      { name: 'MongoDB', slug: 'mongodb', color: '#47A248' },
       { name: 'MariaDB', slug: 'mariadb', color: '#003545' },
       { name: 'MySQL', slug: 'mysql', color: '#4479A1' },
       { name: 'SQLite', slug: 'sqlite', color: '#003B57' },
       { name: 'H2', icon: Database, color: '#1e3a5f' },
+      { name: 'MongoDB', slug: 'mongodb', color: '#47A248' },
+      { name: 'SQL', icon: Database, color: '#2563eb' },
     ],
   },
   {
@@ -56,6 +59,7 @@ const categories = [
       { name: 'Docker', slug: 'docker', color: '#2496ED' },
       { name: 'NGINX', slug: 'nginx', color: '#009639' },
       { name: 'Cloudflare', slug: 'cloudflare', color: '#F38020' },
+      { name: 'n8n', slug: 'n8n', color: '#EA4B71' },
       { name: 'SSL', icon: Shield, color: '#22c55e' },
     ],
   },
@@ -65,9 +69,11 @@ const categories = [
     color: '#0891b2',
     items: [
       { name: 'SSH', icon: Terminal, color: '#000000' },
+      { name: 'SFTP', icon: Terminal, color: '#000000' },
       { name: 'Reverse Proxy', icon: Shield, color: '#0891b2' },
       { name: 'Proxy Management', icon: Settings2, color: '#0891b2' },
       { name: 'DNS', icon: Globe, color: '#0891b2' },
+      { name: 'API', icon: Globe, color: '#0891b2' },
       { name: 'REST API', icon: Globe, color: '#0891b2' },
       { name: 'Socket.io', slug: 'socketdotio', color: '#010101' },
     ],
@@ -77,11 +83,9 @@ const categories = [
     label: { fr: 'Logiciel', en: 'Software' },
     color: '#d946ef',
     items: [
-      { name: 'Redis', slug: 'redis', color: '#DC382D' },
       { name: 'VS Code', icon: VSCodeIcon, color: '#007ACC' },
       { name: 'OpenCode', icon: Code2, color: '#d946ef' },
       { name: 'MobaXterm', icon: Terminal, color: '#d946ef' },
-      { name: 'IntelliJ IDEA', slug: 'intellijidea', color: '#000000' },
     ],
   },
 ];
