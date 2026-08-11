@@ -73,7 +73,6 @@ const categories = [
       { name: 'Reverse Proxy', icon: Shield, color: '#0891b2' },
       { name: 'Proxy Management', icon: Settings2, color: '#0891b2' },
       { name: 'DNS', icon: Globe, color: '#0891b2' },
-      { name: 'API', icon: Globe, color: '#0891b2' },
       { name: 'REST API', icon: Globe, color: '#0891b2' },
       { name: 'Socket.io', slug: 'socketdotio', color: '#010101' },
     ],
@@ -86,6 +85,7 @@ const categories = [
       { name: 'VS Code', icon: VSCodeIcon, color: '#007ACC' },
       { name: 'OpenCode', icon: Code2, color: '#d946ef' },
       { name: 'MobaXterm', icon: Terminal, color: '#d946ef' },
+      { name: 'QoreDB', icon: Database, color: '#d946ef', href: 'https://www.qoredb.com/' },
     ],
   },
 ];
@@ -149,12 +149,19 @@ export default function Stack() {
               </h3>
               <div className="stack-chips">
                 {cat.items.map((item, i) => (
-                  <div key={item.name} className="stack-chip" style={{ '--i': i }}>
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    target={item.href ? '_blank' : undefined}
+                    rel="noreferrer"
+                    className="stack-chip"
+                    style={{ '--i': i }}
+                  >
                     <span className="stack-chip-icon" style={{ background: `${item.color}1a`, color: item.color }}>
                       <TechIcon item={item} />
                     </span>
                     <span className="stack-chip-name">{item.name}</span>
-                  </div>
+                  </a>
                 ))}
               </div>
             </div>

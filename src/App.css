@@ -761,6 +761,7 @@
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 10px;
+  text-decoration: none;
   animation: cardIn 0.35s ease both;
   animation-delay: calc(var(--i, 0) * 0.04s);
   transition: border-color 0.2s, box-shadow 0.2s;
