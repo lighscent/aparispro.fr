@@ -11,22 +11,31 @@ const GithubIcon = ({ size = 14 }) => (
 const projects = [
   {
     title: 'Desktop Engineer',
-    descriptionFr: 'Le toolkit ultime offline-first pour ing\u00e9nieurs syst\u00e8me, d\u00e9veloppeurs et administrateurs.',
+    descriptionFr: 'Le toolkit ultime offline-first pour ingénieurs système, développeurs et administrateurs.',
     descriptionEn: 'The ultimate offline-first toolkit for system engineers, developers, and sysadmins.',
-    tags: { fr: ['Hors-ligne', 'Bo\u00eete \u00e0 outils syst\u00e8me', 'Outils d\u00e9veloppeur'], en: ['Offline-first', 'System Toolkit', 'Developer Tools'] },
+    tags: { fr: ['Hors-ligne', 'Boîte à outils système', 'Outils développeur'], en: ['Offline-first', 'System Toolkit', 'Developer Tools'] },
     url: 'https://desktop.engineer/',
     code: 'https://github.com/lighscent/desktop.engineer',
     images: ['/content/desktop-engineer-screen.png'],
   },
   {
     title: 'MegaNetwork',
-    descriptionFr: 'Serveur Minecraft avec boutique int\u00e9gr\u00e9e via Stripe.',
+    descriptionFr: 'Serveur Minecraft avec boutique intégrée via Stripe.',
     descriptionEn: 'Minecraft server with an integrated Stripe shop.',
     tags: { fr: ['Minecraft', 'Stripe', 'Serveur'], en: ['Minecraft', 'Stripe', 'Server'] },
     url: 'https://meganetwork.space/',
     code: '#',
-    images: ['/content/meganetwork-screen-1.png', '/content/meganetwork-screen-2.png'],
+    images: ['/content/meganetwork-screen-new-1.png', '/content/meganetwork-screen-new-2.png'],
   },
+  {
+    title: 'Echo',
+    descriptionFr: 'Plateforme de feedback de suggestions et de bugs pour le projet MegaNetwork.',
+    descriptionEn: 'Suggestion and bug feedback platform for the MegaNetwork project.',
+    tags: { fr: ['Plateforme de feedback', 'Suggestions', 'Bugs'], en: ['Feedback platform', 'Suggestions', 'Bugs'] },
+    url: 'https://echo.meganetwork.space/',
+    code: '#',
+    images: ['/content/echo-screen-1.png', '/content/echo-screen-2.png'],
+  }
 ];
 
 export default function Projects() {
