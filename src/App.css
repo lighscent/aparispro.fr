@@ -307,8 +307,8 @@
 .hero-social[aria-label="Email"] { color: var(--accent); }
 .hero-social[aria-label="Email"]:hover { border-color: var(--accent) !important; color: var(--accent) !important; }
 
-.hero-social[aria-label="GitHub"] { color: #333; }
-.hero-social[aria-label="GitHub"]:hover { border-color: #333 !important; color: #333 !important; }
+.hero-social[aria-label="GitHub"] { color: var(--text); }
+.hero-social[aria-label="GitHub"]:hover { border-color: var(--text) !important; color: var(--text) !important; }
 
 .hero-social[aria-label="LinkedIn"] { color: #0077B5; }
 .hero-social[aria-label="LinkedIn"]:hover { border-color: #0077B5 !important; color: #0077B5 !important; }
